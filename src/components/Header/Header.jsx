@@ -4,8 +4,12 @@ import s from "./Header.module.css"
 const Header = () => {
     return (
         <header className={s.header}>
-            <img src='https://static.1tv.ru/uploads/video/material/splash/2/_original/492242_a585d0ae20.jpg'/>
-            <div>Вот это шапка! Ура!</div>
+            <div className={s.reporter}> Новостник </div>
+            <div className={s.menuItems}>
+                <div className={s.main}> Главная </div>
+                <div className={s.news}> Новости </div>
+                <div className={s.contact}> Контакты </div>
+            </div>
         </header>
     )
 }
