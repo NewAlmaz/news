@@ -1,28 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header/Header";
+import Contacts from "./components/Contacts/Contacts";
+import OneNews from "./components/OneNews/OneNews";
+import AllNews from "./components/AllNews/AllNews";
+import Main from "./components/Main/Main";
+import {BrowserRouter, Route} from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Header/>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = (props) => {
+    return (
+            <div className="App">
+                <header className="App-header">
+                    <Header/>
+                    <Main/>
+                    <div>aaaaaaaaa</div>
+                </header>
+
+                <Main/>
+                <OneNews/>
+                <AllNews/>
+                <Contacts/>
+
+                {/*<div className="app-wrapper-content">*/}
+                {/*    <Route path='/main' component={Main}/>*/}
+                {/*    <Route path='/onenews' component={OneNews}/>*/}
+                {/*    <Route path='/allnews' component={AllNews}/>*/}
+                {/*    <Route path='/contacts' component={Contacts}/>*/}
+                {/*</div>*/}
+
+                {/*<Route path='/Main' render={ () => <Main/> } />*/}
+                {/*<Route path='/OneNews' render={ () => <OneNews/> } />*/}
+                {/*<Route path='/AllNews' render={ () => <AllNews/> } />*/}
+                {/*<Route path='/Contacts' render={ () => <Contacts/> } />*/}
+
+            </div>
+    );
 }
 
 export default App;
