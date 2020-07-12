@@ -11,9 +11,7 @@ const Header = () => {
                 <div className={s.main}><a href="/main">Главная</a></div>
                 <div className={s.news}><a href="/allnews">Новости</a></div>
                 <div className={s.contact}><a href="/contacts">Контакты</a></div>
-                <Main/>
             </div>
-            <Contacts/>
         </header>
     )
 }

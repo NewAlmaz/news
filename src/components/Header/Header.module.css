@@ -2,7 +2,6 @@
     /* Rectangle 7 */
 
 
-    position: absolute;
     width: 1920px;
     height: 120px;
     left: 0px;
@@ -35,7 +34,6 @@
 .reporter {
     /* Новостник */
 
-    position: absolute;
     width: 128px;
     height: 30px;
     left: 405px;
@@ -57,7 +55,6 @@
 .menuItems .main {
     /* Главная */
 
-    position: static;
     width: 67px;
     height: 22px;
     left: 0px;
@@ -84,7 +81,6 @@
 }
 
 .menuItems .news {
-    position: static;
     width: 70px;
     height: 22px;
     left: 102px;
