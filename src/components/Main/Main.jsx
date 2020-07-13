@@ -3,7 +3,7 @@ import s from "./Main.module..css"
 
 const Main = () => {
     return (
-        <div>Главная страница</div>
+        <div>Главная</div>
     )
 }
 

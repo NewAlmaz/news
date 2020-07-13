@@ -1,27 +1,23 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Header from "./components/Header/Header";
 import Contacts from "./components/Contacts/Contacts";
 import OneNews from "./components/OneNews/OneNews";
 import AllNews from "./components/AllNews/AllNews";
 import Main from "./components/Main/Main";
-import {BrowserRouter, Route} from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 const App = (props) => {
     return (
-        <BrowserRouter>
-            <div className="App">
-                <header className="App-header">
-                    <Header/>
-                </header>
-
-                <Route path='/Main' render={ () => <Main/> } />
-                <Route path='/OneNews' render={ () => <OneNews/> } />
-                <Route path='/AllNews' render={ () => <AllNews/> } />
-                <Route path='/Contacts' render={ () => <Contacts/> } />
-
+        <div className="App">
+            <div className="container">
+                <Header />
+                <Main />
+                <OneNews />
+                <AllNews />
+                <Contacts />
             </div>
-        </BrowserRouter>
+        </div>
     );
 }
 

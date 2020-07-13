@@ -1,17 +1,23 @@
 import React from "react";
-import s from "./Header.module.css"
-import Main from "../Main/Main";
-import Contacts from "../Contacts/Contacts";
+import './Header.scss'
 
 const Header = () => {
     return (
-        <header className={s.header}>
-            <div className={s.reporter}><a href="/main">Новостник</a></div>
-            <div className={s.menuItems}>
-                <div className={s.main}><a href="/main">Главная</a></div>
-                <div className={s.news}><a href="/allnews">Новости</a></div>
-                <div className={s.contact}><a href="/contacts">Контакты</a></div>
-            </div>
+        <header className="header">
+            <a className="reporter" href="/main">Новостник</a>
+            <nav className="menu">
+                <ul className="menuItems">
+                    <li className="menuItem active">
+                        <a className="main" href="/main">Главная</a>
+                    </li>
+                    <li className="menuItem">
+                        <a className="news" href="/allnews">Новости</a>
+                    </li>
+                    <li className="menuItem">
+                        <a className="contact" href="/contacts">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
     )
 }
