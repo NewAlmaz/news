@@ -13,13 +13,13 @@ const App = (props) => {
             <div className="App">
                 <div className="container">
                     <Header/>
-                    <Switch>
+                    {/*<Switch>*/}
                         <Route exact path="/" render={() => <Main/>}/>
                         <Route exact path="/Main" render={() => <Main/>}/>
                         <Route exact path="/OneNews" render={() => <OneNews/>}/>
                         <Route exact path="/AllNews" render={() => <AllNews/>}/>
                         <Route exact path="/Contacts" render={() => <Contacts/>}/>
-                    </Switch>
+                    {/*</Switch>*/}
                 </div>
             </div>
         </BrowserRouter>
