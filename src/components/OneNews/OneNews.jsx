@@ -1,5 +1,4 @@
 import React from "react";
-import s from "./OneNews.module.css";
 
 const OneNews = () => {
     return (

@@ -1,5 +1,4 @@
 import React from "react";
-import s from "./AllNews.module.css"
 
 const AllNews = () => {
     return (
