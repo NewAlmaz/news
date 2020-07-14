@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/news/static/css/main.a60ebc07.chunk.css",
-    "main.js": "/news/static/js/main.ef24f698.chunk.js",
-    "main.js.map": "/news/static/js/main.ef24f698.chunk.js.map",
+    "main.js": "/news/static/js/main.45356f05.chunk.js",
+    "main.js.map": "/news/static/js/main.45356f05.chunk.js.map",
     "runtime-main.js": "/news/static/js/runtime-main.7ab2d7f2.js",
     "runtime-main.js.map": "/news/static/js/runtime-main.7ab2d7f2.js.map",
-    "static/js/2.0d9c308f.chunk.js": "/news/static/js/2.0d9c308f.chunk.js",
-    "static/js/2.0d9c308f.chunk.js.map": "/news/static/js/2.0d9c308f.chunk.js.map",
+    "static/js/2.89da36f1.chunk.js": "/news/static/js/2.89da36f1.chunk.js",
+    "static/js/2.89da36f1.chunk.js.map": "/news/static/js/2.89da36f1.chunk.js.map",
     "index.html": "/news/index.html",
-    "precache-manifest.b7bc9183a0603fbbcafbecc5bb093a90.js": "/news/precache-manifest.b7bc9183a0603fbbcafbecc5bb093a90.js",
+    "precache-manifest.e012f71d3c0c8b29dcda187627ce78d3.js": "/news/precache-manifest.e012f71d3c0c8b29dcda187627ce78d3.js",
     "service-worker.js": "/news/service-worker.js",
     "static/css/main.a60ebc07.chunk.css.map": "/news/static/css/main.a60ebc07.chunk.css.map",
-    "static/js/2.0d9c308f.chunk.js.LICENSE.txt": "/news/static/js/2.0d9c308f.chunk.js.LICENSE.txt",
+    "static/js/2.89da36f1.chunk.js.LICENSE.txt": "/news/static/js/2.89da36f1.chunk.js.LICENSE.txt",
     "static/media/Header.scss": "/news/static/media/ProximaNova-Regular.b7c51278.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.7ab2d7f2.js",
-    "static/js/2.0d9c308f.chunk.js",
+    "static/js/2.89da36f1.chunk.js",
     "static/css/main.a60ebc07.chunk.css",
-    "static/js/main.ef24f698.chunk.js"
+    "static/js/main.45356f05.chunk.js"
   ]
 }
