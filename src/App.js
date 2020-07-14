@@ -14,11 +14,11 @@ const App = (props) => {
                 <div className="container">
                     <Header/>
                     <Switch>
-                        <Route exact path="/news/" render={() => <Main/>}/>
-                        <Route exact path="/news/Main" render={() => <Main/>}/>
-                        <Route exact path="/news/OneNews" render={() => <OneNews/>}/>
-                        <Route exact path="/news/AllNews" render={() => <AllNews/>}/>
-                        <Route exact path="/news/Contacts" render={() => <Contacts/>}/>
+                        <Route exact path="/" render={() => <Main/>}/>
+                        <Route exact path="/Main" render={() => <Main/>}/>
+                        <Route exact path="/OneNews" render={() => <OneNews/>}/>
+                        <Route exact path="/AllNews" render={() => <AllNews/>}/>
+                        <Route exact path="/Contacts" render={() => <Contacts/>}/>
                     </Switch>
                 </div>
             </div>
