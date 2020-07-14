@@ -1,45 +1,54 @@
 @import '../../globals-fonts/globals-fonts.scss';
 
 .info {
+  font-family: 'Proxima Nova Regular';
   padding: 45px 0;
   display: flex;
-  align-items: center;
+  align-items: normal;
 
   .infoList {
-    font-family: 'Proxima Nova Regular';
     font-size: 25px;
     line-height: 30px;
     color: $color-black;
     font-style: normal;
     font-weight: normal;
 
+    margin: 1%;
+    padding-bottom: 9%;
+
     .phone {
       font-size: 60px;
       line-height: 93%;
       color: #004FEC;
+      padding-bottom: inherit;
+
     }
 
     .fio {
       font-size: 25px;
       line-height: 30px;
+      padding-bottom: inherit;
     }
 
     .email {
       font-size: 20px;
       line-height: 24px;
       color: #333D51;
+      padding-bottom: inherit;
     }
 
     .description {
       font-size: 20px;
       line-height: 24px;
       color: rgba(51, 61, 81, 0.5);
+      padding-bottom: inherit;
     }
 
     .skill {
       font-size: 20px;
       line-height: 24px;
       color: #333D51;
+      padding-bottom: inherit;
     }
 
   }
@@ -48,6 +57,7 @@
   .photo {
     height: 340px;
     //width: 540px;
+    margin: 1%;
   }
 
 }
