@@ -7,47 +7,44 @@
 
   .infoList {
     font-size: 25px;
-    line-height: 30px;
+    //line-height: 30px;
     color: $color-black;
     font-weight: normal;
 
-    padding-bottom: 9%;
+    padding-bottom: 25px;
 
     .phone {
       font-size: 60px;
-      line-height: 93%;
       color: #004FEC;
       padding-bottom: inherit;
     }
 
     .fio {
       font-size: 25px;
-      line-height: 30px;
       //padding-bottom: inherit;
-      padding-left:15px;
-      border-left:2px solid #004FEC;
+      padding-left: 15px;
+      border-left: 2px solid #004FEC;
     }
 
     .email {
       font-size: 20px;
-      line-height: 24px;
       color: #333D51;
-      padding-top: 9%;
+      padding-top: 20px;
       padding-bottom: inherit;
     }
 
     .description {
       font-size: 20px;
-      line-height: 24px;
       color: rgba(51, 61, 81, 0.5);
+      padding-top: 20px;
       padding-bottom: inherit;
     }
 
     .skill {
       font-size: 20px;
-      line-height: 24px;
       color: #333D51;
       padding-bottom: inherit;
+
       .perfectSkill {
         color: #004fec;
       }
@@ -55,10 +52,8 @@
 
   }
 
-
   .photo {
     height: 340px;
-    //width: 540px;
     margin-left: auto;
   }
 

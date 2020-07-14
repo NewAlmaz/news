@@ -8,7 +8,7 @@ const Header = () => {
             <NavLink className="reporter" to="/Main">Новостник</NavLink>
             <nav className="menu">
                 <ul className="menuItems">
-                    <li className="menuItem active">
+                    <li className="menuItem">
                         <NavLink className="main" to="/Main">Главная</NavLink>
                     </li>
                     <li className="menuItem">
@@ -21,6 +21,6 @@ const Header = () => {
             </nav>
         </header>
     )
-}
+};
 
 export default Header
