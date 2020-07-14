@@ -9,15 +9,17 @@ import {BrowserRouter, HashRouter, Route, Switch} from "react-router-dom";
 
 const App = (props) => {
     return (
-        <BrowserRouter basename="/news">
+        <BrowserRouter>
             <div className="App">
                 <div className="container">
                     <Header/>
-                    <Route exact path="/" render={() => <Main/>}/>
-                    <Route exact path="/Main" render={() => <Main/>}/>
-                    <Route exact path="/OneNews" render={() => <OneNews/>}/>
-                    <Route exact path="/AllNews" render={() => <AllNews/>}/>
-                    <Route exact path="/Contacts" render={() => <Contacts/>}/>
+                    <Switch>
+                        <Route exact path="/" render={() => <Main/>}/>
+                        <Route exact path="/Main" render={() => <Main/>}/>
+                        <Route exact path="/OneNews" render={() => <OneNews/>}/>
+                        <Route exact path="/AllNews" render={() => <AllNews/>}/>
+                        <Route exact path="/Contacts" render={() => <Contacts/>}/>
+                    </Switch>
                 </div>
             </div>
         </BrowserRouter>
