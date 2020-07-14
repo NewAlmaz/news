@@ -14,7 +14,6 @@ const App = (props) => {
                 <div className="container">
                     <Header/>
                     <Switch>
-                        <Route exact path="/" render={() => <Main/>}/>
                         <Route exact path="/Main" render={() => <Main/>}/>
                         <Route exact path="/OneNews" render={() => <OneNews/>}/>
                         <Route exact path="/AllNews" render={() => <AllNews/>}/>
