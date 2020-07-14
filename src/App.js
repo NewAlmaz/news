@@ -9,7 +9,7 @@ import {BrowserRouter, HashRouter, Route, Switch} from "react-router-dom";
 
 const App = (props) => {
     return (
-        <BrowserRouter basename="/news">
+        <BrowserRouter basename="/news123">
             <div className="App">
                 <div className="container">
                     <Header/>
