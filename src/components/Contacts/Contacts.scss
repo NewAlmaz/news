@@ -23,13 +23,16 @@
     .fio {
       font-size: 25px;
       line-height: 30px;
-      padding-bottom: inherit;
+      //padding-bottom: inherit;
+      padding-left:15px;
+      border-left:2px solid #004FEC;
     }
 
     .email {
       font-size: 20px;
       line-height: 24px;
       color: #333D51;
+      padding-top: 9%;
       padding-bottom: inherit;
     }
 
@@ -45,6 +48,9 @@
       line-height: 24px;
       color: #333D51;
       padding-bottom: inherit;
+      .perfectSkill {
+        color: #004fec;
+      }
     }
 
   }

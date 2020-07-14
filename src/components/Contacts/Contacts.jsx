@@ -7,10 +7,10 @@ const Contacts = () => {
 
             <ul className="infoList">
                 <li className="phone">+375 (29) 123 45 67</li>
-                <li className="fio">Пчёлко Алексей</li>
+                <li className="fio">Пчёлко<br/>Алексей</li>
                 <li className="email">PsyDemon@yandex.by</li>
                 <li className="description">JavaScript разработчик</li>
-                <li className="skill">ES5, ES6, React</li>
+                <li className="skill">ES5, ES6, <span className="perfectSkill">React</span></li>
             </ul>
 
             <img className="photo"
