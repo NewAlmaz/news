@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/news/static/css/main.52c9176c.chunk.css",
+    "main.css": "/news/static/css/main.e78b9fc3.chunk.css",
     "main.js": "/news/static/js/main.dd0c106e.chunk.js",
     "main.js.map": "/news/static/js/main.dd0c106e.chunk.js.map",
     "runtime-main.js": "/news/static/js/runtime-main.7ab2d7f2.js",
@@ -8,16 +8,16 @@
     "static/js/2.93ec284b.chunk.js": "/news/static/js/2.93ec284b.chunk.js",
     "static/js/2.93ec284b.chunk.js.map": "/news/static/js/2.93ec284b.chunk.js.map",
     "index.html": "/news/index.html",
-    "precache-manifest.16221298ea0de0cf777a331c5836f257.js": "/news/precache-manifest.16221298ea0de0cf777a331c5836f257.js",
+    "precache-manifest.9ea4552755b046c9f68fa42541e8b4f9.js": "/news/precache-manifest.9ea4552755b046c9f68fa42541e8b4f9.js",
     "service-worker.js": "/news/service-worker.js",
-    "static/css/main.52c9176c.chunk.css.map": "/news/static/css/main.52c9176c.chunk.css.map",
+    "static/css/main.e78b9fc3.chunk.css.map": "/news/static/css/main.e78b9fc3.chunk.css.map",
     "static/js/2.93ec284b.chunk.js.LICENSE.txt": "/news/static/js/2.93ec284b.chunk.js.LICENSE.txt",
     "static/media/Contacts.scss": "/news/static/media/ProximaNova-Regular.b7c51278.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.7ab2d7f2.js",
     "static/js/2.93ec284b.chunk.js",
-    "static/css/main.52c9176c.chunk.css",
+    "static/css/main.e78b9fc3.chunk.css",
     "static/js/main.dd0c106e.chunk.js"
   ]
 }
