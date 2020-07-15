@@ -3,7 +3,7 @@ import "./Main.scss"
 import OneSmallNews from "../OneSmallNews/OneSmallNews";
 
 const Main = (props) => {
-    let newsItems = props.state.news.map( el => <OneSmallNews  id={el.id} date={el.date} original={el.original} message={el.message}/> );
+    let newsItems = props.state.news.map( el => <OneSmallNews  date={el.date} original={el.original} message={el.message}/> );
 
     return (
         <div className="newsContainer">

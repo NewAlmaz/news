@@ -4,7 +4,7 @@ import "./OneSmallNews.scss";
 const OneSmallNews = (props) => {
     return (
         <div className="itemNews">
-            id={props.id}<br/>
+            {/*id={props.id}<br/>*/}
             date={props.date}<br/>
             original={props.original}<br/>
             message={props.message}<br/>
