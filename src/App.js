@@ -7,14 +7,14 @@ import AllNews from "./components/AllNews/AllNews";
 import Main from "./components/Main/Main";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
-const App = () => {
+const App = (props) => {
     return (
         <BrowserRouter basename="/news">
             <div className="App">
                 <div className="container">
                     <Header/>
                     <Switch>
-                        <Route exact path="/Main" render={() => <Main/>}/>
+                        <Route exact path="/Main" render={() => <Main state={props.state.newsPage}/>}/>
                         <Route exact path="/OneNews" render={() => <OneBigNews/>}/>
                         <Route exact path="/AllNews" render={() => <AllNews/>}/>
                         <Route exact path="/Contacts" render={() => <Contacts/>}/>

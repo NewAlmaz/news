@@ -1,10 +1,13 @@
 import React from "react";
 import "./OneSmallNews.scss";
 
-const OneSmallNews = () => {
+const OneSmallNews = (props) => {
     return (
         <div className="itemNews">
-            Одна маленькая квадратная новость
+            id={props.id}<br/>
+            date={props.date}<br/>
+            original={props.original}<br/>
+            message={props.message}<br/>
         </div>
     )
 }
