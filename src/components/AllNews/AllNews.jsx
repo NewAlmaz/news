@@ -5,7 +5,7 @@ import OneSmallNews from "../OneSmallNews/OneSmallNews";
 const AllNews = () => {
     return (
         <div className="newsContainer">
-            <div className="title">Всегда свежие <span className="titleSelect">новости</span></div>
+            <div className="title">Быть в курсе <span className="titleSelect">событий</span></div>
             <div className="allNewsWrapper">
                 <OneSmallNews/>
                 <OneSmallNews/>

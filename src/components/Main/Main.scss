@@ -1,0 +1,26 @@
+
+.newsContainer {
+  font-family: 'Proxima Nova Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #333D51;
+  padding: 45px 0;
+
+  .title {
+    .titleSelect {
+      color: #004fec;
+    }
+  }
+}
+
+.preNews {
+
+}
+
+.allNewsWrapper {
+  display: grid;
+  grid-template-columns: fit-content(50%) fit-content(290px) 1fr;
+  gap: 30px;
+  padding: 75px 0;
+}
