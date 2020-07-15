@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import Header from "./components/Header/Header";
 import Contacts from "./components/Contacts/Contacts";
-import OneNews from "./components/OneNews/OneNews";
+import OneBigNews from "./components/OneBigNews/OneBigNews";
 import AllNews from "./components/AllNews/AllNews";
 import Main from "./components/Main/Main";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
@@ -15,7 +15,7 @@ const App = () => {
                     <Header/>
                     <Switch>
                         <Route exact path="/Main" render={() => <Main/>}/>
-                        <Route exact path="/OneNews" render={() => <OneNews/>}/>
+                        <Route exact path="/OneNews" render={() => <OneBigNews/>}/>
                         <Route exact path="/AllNews" render={() => <AllNews/>}/>
                         <Route exact path="/Contacts" render={() => <Contacts/>}/>
                     </Switch>
